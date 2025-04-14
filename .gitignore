@@ -1,0 +1,17 @@
+# Node
+node_modules/
+build/
+
+# Python/Flask
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+instance/
+*.db
+
+# System
+.DS_Store
+.env
