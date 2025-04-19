@@ -1,0 +1,16 @@
+/* Estilos para los links */
+.auth-links {
+  display: flex;
+  gap: 15px;
+  padding: 1rem;
+  justify-content: flex-end; /* Alinea a la derecha */
+}
+
+.auth-links a {
+  color: #4361ee;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

@@ -1,0 +1,92 @@
+/* Contenedor principal */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+}
+
+/* Tarjeta del formulario */
+.register-card {
+  background: white;
+  width: 100%;
+  max-width: 500px; /* Más ancho */
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.register-header h2 {
+  text-align: center;
+  color: #2b2d42;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Divisor */
+.divider {
+  height: 3px;
+  width: 60px;
+  background: #4361ee;
+  margin: 0 auto 30px;
+  border-radius: 3px;
+}
+
+/* Grupos de inputs */
+.input-group {
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  color: #2b2d42;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Botón */
+.register-button {
+  width: 100%;
+  padding: 16px;
+  background: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Mensaje de error */
+.error-message {
+  color: #ff3333;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+.register-footer {
+  text-align: center;
+  margin-top: 25px;
+  color: #6c757d;
+}
+
+.register-footer a {
+  color: #4361ee;
+  text-decoration: none;
+  font-weight: 600;
+}
